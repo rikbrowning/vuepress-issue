@@ -1,0 +1,23 @@
+{
+  "name": "test",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite serve",
+    "docs:info": "vuepress info",
+    "docs:build": "vuepress build docs",
+    "docs:dev": "vuepress dev docs"
+  },
+  "dependencies": {
+    "vue": "^3.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.2.3",
+    "@vue/compiler-sfc": "^3.2.0",
+    "@vuepress/plugin-register-components": "v2.0.0-beta.23",
+    "vite": "^2.3.7",
+    "vuepress-vite": "^2.0.0-beta.23"
+
+  }
+}
